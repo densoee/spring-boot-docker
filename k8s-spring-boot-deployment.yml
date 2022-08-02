@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: rahulwagh17/kubernetes:jhooq-k8s-springboot
-
+          image: deden7/jhooq-docker-demo:jhooq-docker-demo
           resources:
             requests:
               memory: "128Mi"
